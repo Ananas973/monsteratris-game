@@ -1,12 +1,15 @@
 canvas {
     display: block;
     margin: auto;
-    border: 1px solid black;
+    border: 3px solid #CCCC00;
+    height:545px;
+    width:380px;
+    background-color: white;
 }
 
 #playbutton {
-    width: 100px;
-    height: 50px;
+    width: 250px;
+    height: 45px;
     display: block;
     margin: auto;
     margin-top: 10px;
@@ -15,4 +18,13 @@ canvas {
     font-weight: bold;
     background-color: white;
     cursor: pointer;
+}
+
+body {
+    color:black;
+    background-color:white;
+    background:url(images/greenleaves-tetris.jpeg);
+    margin: auto;
+    background-size: cover;
+    
 }

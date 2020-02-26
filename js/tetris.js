@@ -7,22 +7,22 @@ var current; // current moving shape
 var currentX, currentY; // position of current shape
 var freezed; // is current shape settled on the board?
 var shapes = [
-    [ 1, 1, 1, 1 ],
+    [ 1, 1, 1, 1 ], // greenyellow
     [ 1, 1, 1, 0,
-      1 ],
+      1 ], // olivedrab
     [ 1, 1, 1, 0,
-      0, 0, 1 ],
+      0, 0, 1 ], // forestgreen
     [ 1, 1, 0, 0,
-      1, 1 ],
+      1, 1 ], // olive
     [ 1, 1, 0, 0,
-      0, 1, 1 ],
+      0, 1, 1 ], // darkolivegreen
     [ 0, 1, 1, 0,
-      1, 1 ],
+      1, 1 ], // lightgreen
     [ 0, 1, 0, 0,
-      1, 1, 1 ]
+      1, 1, 1 ] // limegreen
 ];
 var colors = [
-    'cyan', 'orange', 'blue', 'yellow', 'red', 'green', 'purple'
+    'greenyellow', 'olivedrab', 'forestgreen', 'olive', 'darkolivegreen', 'lightgreen', 'limegreen'
 ];
 
 // creates a new 4x4 shape in global variable 'current'
